@@ -149,11 +149,11 @@ export default function In() {
 
             <View style={styles.btnFrame}>
               <TouchableOpacity style={styles.btnF}>
-                <Button title="reset" onPress={()=> handleReset()}></Button>
+                <Button title="submit" onPress={()=> handleReset()}></Button>
               </TouchableOpacity>
 
               <TouchableOpacity style={styles.btnF} disabled={!isValid}>
-                <Button title='submit' onPress={()=> handleSubmit()}></Button>
+                <Button title='reset' onPress={()=> handleSubmit()}></Button>
                 {/* <Text>Generate</Text> */}
               </TouchableOpacity>
             </View>
